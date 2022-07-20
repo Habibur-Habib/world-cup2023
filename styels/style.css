@@ -1,0 +1,529 @@
+/* ---- Use google  font ----  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* common uitilites  */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+/* ----Main----  */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Button section  */
+.link-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fffbf6;
+    background: #6e6407;
+    border-radius: 5px;
+}
+/*====afa section styling Start==== */
+
+.afa-section {
+    display: flex;
+    background: #0c2d72;
+    margin-top: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+/* afa content  */
+.afa-content {
+    width: 30%;
+    padding: 20px;
+    color: #ffffff;
+}
+.afa-content h1 {
+    font-size: 3em;
+    line-height: 1.2;
+}
+.afa-content p {
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.responsive-content p {
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
+    display: none;
+    color: #ffffff;
+}
+.afa-content a:hover {
+    animation: button-animatin 0.5s linear infinite;
+}
+.afa-content a {
+    animation: button-animatin 0.5s linear infinite;
+}
+.afa-content-image {
+    width: 65%;
+    margin-right: 10px;
+    margin-left: 26px;
+    margin-bottom: -5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.afa-content-image img {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: -5px;
+    border-radius: 5px;
+}
+.link-button .fa-eye {
+    padding-left: 10px;
+    font-size: 15px;
+    animation: animation 0.5s linear infinite;
+}
+/* Watch Live animation  */
+@keyframes animation {
+    0% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(0.5);
+    }
+}
+
+/* afa section button animation  */
+@keyframes button-animatin {
+    0% {
+        background-color: rgb(71, 6, 177);
+    }
+    100% {
+        background: rgb(11, 100, 233);
+    }
+}
+
+/* afa section style end  */
+/* ----Article Botton Section Start From Here ---------- */
+.articles {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.article-button-section {
+    width: 300px;
+    height: 200px;
+    background: #0c2d72;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.article-button-section a {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    margin: 20px 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 14px;
+}
+.article-button-section a.active-button {
+    background: #f89b0f;
+    color: #ffffff;
+}
+/* ----Article Botton Section End ---------- */
+/*----- article-blog-section Start From Here------- */
+.article-blog-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.blog-section-content {
+    box-shadow: rgba(0, 0, 0, 0.247) 0px 1px 4px;
+    border-radius: 30px;
+}
+.blog-section-content img {
+    width: 100%;
+}
+/*---------------------------upcoming match page section start */
+.article-blog-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.flag-page-container {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 0px 20px;
+}
+.flag-page-container h3 {
+    margin-top: -10px;
+}
+.flag-page-content img {
+    max-width: 90px;
+}
+.flag-page-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flag-page-content h1 {
+    font-size: 3rem;
+}
+.flag-page-container h2 {
+    font-size: 2rem;
+    padding: 0 30px;
+}
+.flag-page-container p {
+    font-size: 1rem;
+    padding: 20px 0 50px;
+}
+/* upcoming match page section End Here  */
+.grop-page-sectino a.active-button {
+    background: #000066;
+    color: #ffffff;
+}
+.group-page-section img {
+    height: 200px;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.group-page-section h1 {
+    padding: 20px 25px 0px 20px;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+.group-page-section p {
+    padding: 0px 0 0px 20px;
+}
+.group-rating {
+    padding: 15px 0 15px 20px;
+}
+.group-rating i {
+    color: orange;
+}
+
+/*-------- Group Match Page section start from here  --------- */
+/*-------------------------- Blog section ---------- */
+.blog-write-content {
+    padding: 10px;
+}
+.blog-write-content h1 {
+    padding: 10px 0 20px;
+}
+.blog-section-content .blog-button {
+    padding: 3px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.blog-footer-item {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.blog-footer-item .fa-clock {
+    padding-right: 5px;
+}
+.blog-footer-item .fa-comment-alt {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+/*------------------ button for responsive ----------------- */
+.all-blog-item-button {
+    margin: 50px 0;
+    text-align: center;
+    display: none;
+}
+/*----------- Blog section End Here ------------ */
+
+/* footer section  */
+.footer-section {
+    margin-top: 100px;
+    text-align: center;
+    background: #0c2d72;
+    color: #ffffff;
+}
+.footer-section h1 {
+    padding: 80px 0 50px;
+}
+.footer-line {
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.2;
+    margin-bottom: 50px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.footer-menu a {
+    margin: 0 20px;
+    color: #ada9a9;
+}
+.footer-social-icon {
+    padding-bottom: 30px;
+}
+.footer-social-icon a {
+    margin: 0 10px;
+    padding: 6px 9px;
+    border-radius: 50%;
+    background: rgb(49, 47, 47);
+    font-size: 15px;
+    color: #b3b3b3;
+}
+@media only screen and (min-width: 1100px) and (max-width: 1252px) {
+    .afa-content p {
+        display: none;
+    }
+
+    .responsive-content p {
+        display: block;
+        margin-bottom: 0px;
+        margin-bottom: -30px;
+    }
+
+/* ------------article button ----------- */
+  .article-button-section {
+    height: 210px;
+  }
+
+  /* ----------------------article sectin responsive start --------------- */
+  .articles {
+    flex-wrap: wrap;
+  }
+  .article-button-section {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-right: 00px;
+    margin-bottom: 30px;
+  }
+  .article-button-section a {
+    display: inline;
+    background: #fff;
+    margin: 20px 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid rgb(219, 219, 219);
+  }
+  .article-blog-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .blog-responsive{
+    display: none;
+  }
+    /*------------
+   view all responsive button 
+  ------------- */
+  .all-blog-item-button {
+    display: block;
+  }
+}
+  @media only screen and (min-width: 993px) and (max-width: 1100px) {
+    .afa-content h1 {
+      font-size: 4vw;
+    }
+    .afa-content p {
+      display: none;
+    }
+    .responsive-content p {
+      display: block;
+      margin-bottom: 0px;
+      margin-bottom: -30px;
+      width: 300px;
+    }
+    .article-button-section {
+      height: 210px;
+    }
+ /* ----------------------article section responsive start --------------- */
+
+ .articles {
+    flex-wrap: wrap;
+  }
+  .article-button-section {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-right: 00px;
+    margin-bottom: 30px;
+  }
+  .article-button-section a {
+    display: inline;
+    background: #fff;
+    margin: 20px 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid rgb(219, 219, 219);
+  }
+  .article-blog-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .blog-responsive {
+    display: none;
+  }
+   /*------------
+   view all responsive button 
+  ------------- */
+  .all-blog-item-button {
+    display: block;
+  }
+}
+/* ---------------------
+   Dekstop responsive media quary up to 992px
+   ----------------- */
+@media only screen and (min-width: 675px) and (max-width: 992px) {
+  .afa-content h1 {
+    font-size: 4vw;
+  }
+  .afa-content p {
+    display: none;
+  }
+  .responsive-content p {
+    display: block;
+    margin-bottom: 0px;
+    margin-bottom: -30px;
+    width: 300px;
+  }
+  .afa-content {
+    padding: 50px 0 0 50px;
+    color: #ffffff;
+  }
+/* trying solve  ------------------*/
+/*--------------
+   article section blog seciton responsive 
+  ----------- */
+  .articles {
+    flex-wrap: wrap;
+  }
+  .article-button-section {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-right: 00px;
+    margin-bottom: 30px;
+  }
+  .article-button-section a {
+    display: inline;
+    background: #fff;
+    margin: 20px 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid rgb(219, 219, 219);
+  }
+  .article-blog-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .blog-responsive {
+    display: none;
+  }
+
+  /*------------
+   view all responsive button 
+  ------------- */
+  .all-blog-item-button {
+    display: block;
+  }
+}
+
+/* ---------------------
+   mobile responsive media quary up to 576px
+   mobile responsive media quary up to 576px
+   mobile responsive media quary up to 576px
+   mobile responsive media quary up to 576px
+   ----------------- */
+
+@media (max-width: 676px) {
+  .afa-section {
+    flex-wrap: wrap;
+  }
+  .afa-content p {
+    display: none;
+  }
+  .afa-content {
+    width: 100%;
+    padding: 20px 30px 0 30px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .afa-content h1 {
+    font-size: 7vw;
+  }
+  .afa-content-image {
+    width: 100%;
+    text-align: center;
+  }
+  .responsive-content p {
+    display: block;
+    margin-bottom: -30px;
+    width: 100%;
+    padding-top: 20px;
+  }
+  /*-------------------
+   hero section responsive styling end 
+  ----------------  */
+  .articles {
+    flex-wrap: wrap;
+  }
+  .article-button-section {
+    width: auto;
+    height: auto;
+    background: #fff;
+    margin-right: 00px;
+    margin-bottom: 30px;
+  }
+  .article-button-section a {
+    display: block;
+    background: #fff;
+    margin: 20px 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid rgb(219, 219, 219);
+  }
+  .article-blog-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  #blog-responsive {
+    display: none;
+  }
+  /*------------
+   view all responsive button 
+  ------------- */
+  #blog-responsive {
+    display: block;
+  }
+  /* -----------------
+  article section responsvie end  end
+   ------------- */
+  .footer-menu {
+    margin-bottom: 10px;
+  }
+  .footer-menu a {
+    margin: 0 10px;
+  }
+
+  .footer-social-icon {
+    margin-top: 20px;
+  }
+}
