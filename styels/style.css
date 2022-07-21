@@ -33,8 +33,6 @@ main {
     border-radius: 20px;
     position: relative;
 }
-
-/* afa content  */
 .afa-content {
     width: 30%;
     padding: 20px;
@@ -58,10 +56,10 @@ main {
     color: #ffffff;
 }
 .afa-content a:hover {
-    animation: button-animatin 0.5s linear infinite;
+    animation: button-animation 0.5s linear infinite;
 }
 .afa-content a {
-    animation: button-animatin 0.5s linear infinite;
+    animation: button-animation 0.5s linear infinite;
 }
 .afa-content-image {
     width: 65%;
@@ -94,7 +92,7 @@ main {
 }
 
 /* afa section button animation  */
-@keyframes button-animatin {
+@keyframes button-animation {
     0% {
         background-color: rgb(71, 6, 177);
     }
@@ -104,7 +102,7 @@ main {
 }
 
 /* afa section style end  */
-/* ----Article Botton Section Start From Here ---------- */
+/* ----Article Button Section Start From Here ---------- */
 .articles {
     margin-top: 100px;
     display: flex;
@@ -132,7 +130,7 @@ main {
     background: #f89b0f;
     color: #ffffff;
 }
-/* ----Article Botton Section End ---------- */
+/* ----Article Button Section End ---------- */
 /*----- article-blog-section Start From Here------- */
 .article-blog-section {
     display: grid;
@@ -146,7 +144,7 @@ main {
 .blog-section-content img {
     width: 100%;
 }
-/*---------------------------upcoming match page section start */
+/*---------------------------upcoming match page section start ---------------------------- */
 .article-blog-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -182,7 +180,7 @@ main {
     padding: 20px 0 50px;
 }
 /* upcoming match page section End Here  */
-.grop-page-sectino a.active-button {
+.group-page-section a.active-button {
     background: #000066;
     color: #ffffff;
 }
@@ -287,48 +285,12 @@ main {
         margin-bottom: 0px;
         margin-bottom: -30px;
     }
+}
 
-/* ------------article button ----------- */
+/* -----article button ------ */
   .article-button-section {
     height: 210px;
   }
-
-  /* ----------------------article sectin responsive start --------------- */
-  .articles {
-    flex-wrap: wrap;
-  }
-  .article-button-section {
-    width: 100%;
-    height: auto;
-    background: #fff;
-    margin-right: 00px;
-    margin-bottom: 30px;
-  }
-  .article-button-section a {
-    display: inline;
-    background: #fff;
-    margin: 20px 10px;
-    padding: 10px 25px;
-    font-weight: bold;
-    color: #000000;
-    font-size: 18px;
-    border: 1px solid rgb(219, 219, 219);
-  }
-  .article-blog-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
-  }
-  .blog-responsive{
-    display: none;
-  }
-    /*------------
-   view all responsive button 
-  ------------- */
-  .all-blog-item-button {
-    display: block;
-  }
-}
   @media only screen and (min-width: 993px) and (max-width: 1100px) {
     .afa-content h1 {
       font-size: 4vw;
@@ -340,50 +302,13 @@ main {
       display: block;
       margin-bottom: 0px;
       margin-bottom: -30px;
-      width: 300px;
     }
     .article-button-section {
       height: 210px;
     }
- /* ----------------------article section responsive start --------------- */
-
- .articles {
-    flex-wrap: wrap;
   }
-  .article-button-section {
-    width: 100%;
-    height: auto;
-    background: #fff;
-    margin-right: 00px;
-    margin-bottom: 30px;
-  }
-  .article-button-section a {
-    display: inline;
-    background: #fff;
-    margin: 20px 10px;
-    padding: 10px 25px;
-    font-weight: bold;
-    color: #000000;
-    font-size: 18px;
-    border: 1px solid rgb(219, 219, 219);
-  }
-  .article-blog-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
-  }
-  .blog-responsive {
-    display: none;
-  }
-   /*------------
-   view all responsive button 
-  ------------- */
-  .all-blog-item-button {
-    display: block;
-  }
-}
-/* ---------------------
-   Dekstop responsive media quary up to 992px
+  /* ---------------------
+   Desktop responsive media  up to 992px
    ----------------- */
 @media only screen and (min-width: 675px) and (max-width: 992px) {
   .afa-content h1 {
@@ -398,14 +323,10 @@ main {
     margin-bottom: -30px;
     width: 300px;
   }
-  .afa-content {
+  .afa-content{
     padding: 50px 0 0 50px;
     color: #ffffff;
   }
-/* trying solve  ------------------*/
-/*--------------
-   article section blog seciton responsive 
-  ----------- */
   .articles {
     flex-wrap: wrap;
   }
@@ -431,10 +352,9 @@ main {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
   }
-  .blog-responsive {
+  #blog-responsive {
     display: none;
   }
-
   /*------------
    view all responsive button 
   ------------- */
@@ -444,40 +364,41 @@ main {
 }
 
 /* ---------------------
-   mobile responsive media quary up to 576px
-   mobile responsive media quary up to 576px
-   mobile responsive media quary up to 576px
-   mobile responsive media quary up to 576px
+   mobile responsive media  up to 576px
    ----------------- */
 
-@media (max-width: 676px) {
-  .afa-section {
-    flex-wrap: wrap;
-  }
-  .afa-content p {
-    display: none;
-  }
-  .afa-content {
-    width: 100%;
-    padding: 20px 30px 0 30px;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  .afa-content h1 {
-    font-size: 7vw;
-  }
-  .afa-content-image {
-    width: 100%;
-    text-align: center;
-  }
-  .responsive-content p {
-    display: block;
-    margin-bottom: -30px;
-    width: 100%;
-    padding-top: 20px;
-  }
-  /*-------------------
-   hero section responsive styling end 
+   @media (max-width: 676px) {
+    .afa-section{
+      flex-wrap: wrap;
+    }
+    .afa-content p {
+      display: none;
+    }
+    .afa-content {
+      width: 100%;
+      padding: 20px 30px 0 30px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .afa-content h1 {
+      font-size: 7vw;
+    }
+    .afa-content-image {
+      width: 100%;
+      text-align: center;
+      right: -10px;
+
+    }
+    .responsive-content p {
+      display: block;
+      margin-bottom: -30px;
+      width: 100%;
+      padding-top: 20px;
+    }
+   /*-------------------
+   ---------------------
+   afa section responsive styling end here 
+   --------------
   ----------------  */
   .articles {
     flex-wrap: wrap;
@@ -510,20 +431,16 @@ main {
   /*------------
    view all responsive button 
   ------------- */
-  #blog-responsive {
+  #blog-for-responsive {
     display: block;
   }
   /* -----------------
-  article section responsvie end  end
-   ------------- */
+  articles section responsive end
+---------- here   ------------- */
   .footer-menu {
     margin-bottom: 10px;
   }
   .footer-menu a {
     margin: 0 10px;
   }
-
-  .footer-social-icon {
-    margin-top: 20px;
-  }
-}
+} 
